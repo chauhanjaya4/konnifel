@@ -457,12 +457,26 @@ text-align: left;
 }
 .center {
   margin: auto;
-  width: 70%;
+  width: 60%;
   text-align:justify;
   padding:40px;
    
 }
+.text_yellow{
+  margin: auto;
+  width: 60%;
+  padding:20px;
+  font-family: Libre Baskerville;
+font-size: 20px;
+font-weight: 400;
+letter-spacing: 0px;
+text-align: left;
 
+}
+.border-red{
+  padding:15px;
+  border-left:5px solid #a6102b;
+}
 .article2_yellow_section{
 background-color: #f7f7f1;
 }
