@@ -438,6 +438,7 @@ text-align: left;
 .article2_white_text{
   color:#f7f7f1;
   background-color:#A6102B;
+  padding:5px;
   /* line-height: 95px; */
 
 }
@@ -447,10 +448,22 @@ text-align: left;
   url("/images/article2_slider.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
-  background-position: 0 50px !important;
+  background-position: 0 104px !important;
+}
+.article2_white_section{
+
+}
+.center {
+  margin: auto;
+  width: 70%;
+  text-align:justify;
+  padding:40px;
+   
 }
 
-  
+.article2_yellow_section{
+background-color: #f7f7f1;
+}
   /*end of  article2 page*/
