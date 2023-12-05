@@ -427,13 +427,29 @@ color:#272727;
 
   /*start of article2 page*/
 
-.save_article2_heading{
+.article2_heading{
 font-family: Libre Baskerville;
-font-size: 80px;
+font-size: 40px;
 font-weight: 400;
-line-height: 95px;
+/* line-height: 95px; */
 letter-spacing: 0px;
 text-align: left;
+}
+.article2_white_text{
+  color:#f7f7f1;
+  background-color:#A6102B;
+  /* line-height: 95px; */
+
+}
+.article2_section{
+
+  background-image: 
+  url("/images/article2_slider.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: 0 50px !important;
 }
 
   
