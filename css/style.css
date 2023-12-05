@@ -449,8 +449,9 @@ text-align: left;
   background-size: cover;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
-  background-position: center;
+   background-position: center; 
   background-position: 0 104px !important;
+  height:700px;
 }
 .article2_white_section{
 
