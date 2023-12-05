@@ -1,0 +1,440 @@
+/* login reg start */
+.reg_form{
+  width:50%;
+  
+
+}
+.reg_body{
+  background-color: #f6f6f6;
+
+}
+
+.fill_in{
+font-family: Libre Baskerville;
+font-size: 35px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0.3%;
+text-align: center;
+margin-top:50px;
+
+}
+
+.form_img{
+  width: 50%;
+height: 955px;
+top: 89px;
+left: 754px;
+}
+
+.these_detail_para{
+  color: #b3b3b3;
+  font-size: 14px;
+    font-weight: 600;
+    font-family: Roboto;
+    text-align:center;
+}
+.reg_label{
+  /* font-family: Roboto; */
+  
+
+  color:#0A0A0A;
+  
+margin-bottom:10px;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.reg_form_input{
+background-color: transparent;
+border-color: #dddddd;
+}
+.field-icon {
+  float: right;
+    /* margin-left: -45px; */
+    margin-top: -27px;
+    position: relative;
+    z-index: 2;
+    padding-right: 10px;
+}
+
+.frm_reg{
+  margin-top:50px;
+
+}
+
+.reg_field{
+  margin-bottom: 20px;
+}
+
+.i_accept{
+  color: #9c9c9c;
+  font-weight:500;
+
+}
+
+.terms_green{
+  color:#2a9553;
+  font-weight:500;
+
+}
+
+
+.i_accept_chq{
+ height: 15px; 
+    width: 15px;
+    margin:10px;
+  }
+
+  .register_btn{
+    width: 173px;
+height: 58px;
+background: #A6102B;
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #FCFCFC;
+float:right;
+text-align: center;
+border: none;
+  }
+
+  .register_btn:hover{
+    
+    background-color: #8e061e;
+  }
+
+  .already_have_log{
+color:#272727;
+font-weight: bold;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+  }
+
+  .already_have{
+color: #7e7e7e;
+margin-top:70px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+  }
+
+  .forgot_pwd{
+color:#a6102b;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+  }
+
+  .fill_in_det{
+    color: #7f7f7f;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    
+  }
+
+  .form_padding{
+    padding:20px;
+
+  }
+
+  .btn_submit{
+    margin-top: 40px;
+    margin-bottom: 129px;
+  }
+
+  .login_img{
+    width: 100%;
+    /* height: 100vh; */
+  }
+
+  .reg_img{
+    width:100%;
+    height: 880px;
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .responsive_input{
+      width:100%;
+    }
+    .reg_img_col{
+      display:block;
+    }
+
+    .reg_img{
+     
+      height: 600px;
+  
+    }
+  }
+
+  /* end of login reg */
+
+  /* all about RRET button */
+
+  .allabt_btn{
+    width:350px;
+    height:50px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FCFCFC;
+    background: #A6102B;
+    padding:15px;
+    margin: 0;
+  position: absolute;
+  top:50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .icon_right{
+    float: right;
+    /* width: 35.1px; */
+    /* height: 32px; */
+    top: 12px;
+    left: 290px;
+    margin-top:-6px;
+    font-size:20px !important ;
+    font-weight: bold !important;
+
+  }
+ .container_btn { 
+    height: 200px;
+    position: relative;
+    
+  }
+  
+  .allabt_btn:hover{
+    border:1px solid #a6102b;
+    color:#a6102b;
+    background-color: #f5f5f5;
+  }
+
+  
+
+  /* end of all about RRET button */
+
+  /* home page start */
+ 
+
+  .save_article_section{
+  background-image: 
+  url("/images/save_article_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center
+}
+
+.bookmark{
+  color: #f5f9fa;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1.6px;
+  -webkit-text-stroke-color: black;
+  margin-right: 10px;
+  }
+
+.save_article_btn{
+  
+  width: 200px;
+height: 35px;
+background-color: #f5f9fa;
+padding: 12px, 24px, 12px, 20px;
+border: 1px;
+gap: 10px;
+font-size: 15px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+float:right; 
+border:1.5px solid #272727;
+}
+
+.save_article_heading{
+  
+width: 700px; 
+height: 192px;
+font-family: Libre Baskerville;
+font-size: 40px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.academic_research_p{
+  margin-top:40px;
+  /* font-family: Roboto; */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  
+}
+
+.save_article_heading_padding{
+padding:40px;
+}
+.academic_research_para{
+  
+  font-family: Libre Baskerville;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+color:#fcfcfc;
+}
+
+.academic_research_para_bg{
+background-color: #a6102b;
+width:200px;
+height: Hug (20px);
+top: 454px;
+left: 120px;
+gap: 8px;
+
+}
+
+.save_article_college_img{
+  width:100%;
+  height:298px;
+}
+
+.container_article_dark{
+   /* position: relative;  */
+   margin-left:10%;
+   margin-right:10%;
+  
+}
+.article_dark_heading{
+  padding: 20px;
+font-size: 20px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+color:#fcfcfc;
+top: 50%;
+  left: 50%;
+  
+/* position: absolute; */
+/* margin: 0;
+  
+   */
+}
+
+.article_dark_para{
+  padding: 20px;
+  /* margin: 0;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+font-size: 15px;
+font-weight: 300;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+color:#fcfcfc;
+}
+
+.article_dark{
+background-color:#000000 ;
+}
+
+
+.article_white_heading{
+  padding: 20px;
+font-size: 20px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: left;
+color:#272727;
+top: 50%;
+  left: 50%;
+  
+/* position: absolute; */
+/* margin: 0;
+  
+   */
+}
+
+.article_white_para{
+  padding: 20px;
+  /* margin: 0;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+ 
+font-size: 15px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+color:#272727;
+}
+
+.article_white_college_img{
+  
+
+}
+.more_articles_heading{
+  font-family: Libre Baskerville;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  
+}
+  /* end of article1 page  */
+
+
+  /*start of article2 page*/
+
+.save_article2_heading{
+font-family: Libre Baskerville;
+font-size: 80px;
+font-weight: 400;
+line-height: 95px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+  
+  /*end of  article2 page*/

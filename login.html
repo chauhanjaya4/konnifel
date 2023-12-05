@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+<body class="reg_body">
+   
+        <div class="container-fluid">
+           
+            <div class="row align-items-center">
+            <div class="col-sm-6">
+                <div class="form_padding">
+                <div class="fill_in">Welcome Back</div> 
+                <div class="fill_in_det">Fill in details to login and get started</div>
+                <form class="form-inline frm_reg" action="">
+                <div class="row reg_field">
+                    <div class="form-group  col">
+                      <label for="first_name" class="reg_label">Email ID/Phone Number</label>
+                      <input type="email" class="form-control reg_form_input" required id="email" placeholder="Enter First Name" name="first_name">
+                      
+                    </div>
+                    </div>
+                    <div class="row reg_field">
+                    <div class="form-group col">
+                      <label for="last_name" class="reg_label">Password</label>
+                      <input type="password" required class="form-control reg_form_input" id="pwd" placeholder="Enter Password" name="last_name">
+                      <i class="fa fa-eye-slash field-icon toggle-password"></i>
+                    </div>
+                </div>
+                <p class="forgot_pwd">Forgot your password?</p>
+                  <div class="col btn_submit">
+                    <button type="submit" name="submit" class="register_btn">Login</button>
+                      </div>
+                  </form>
+                  <p class="already_have">Don't have an account?<span class="already_have_log">Register Now</span></p>
+            </div>
+        </div>
+            <div class="col-sm-6 right-cover">
+                <img src="images/form_img.jpg" class="login_img" alt="">
+            </div>
+           
+        </div>
+
+        </div>
+    
+</body>
+</html>
