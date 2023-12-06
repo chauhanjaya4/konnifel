@@ -161,6 +161,10 @@ text-align: left;
 
   }
 
+  .form_padding_login{
+    padding:60px;
+  }
+
   .btn_submit{
     margin-top: 40px;
     margin-bottom: 129px;
@@ -177,7 +181,7 @@ text-align: left;
 
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 575px) {
     .responsive_input{
       width:100%;
     }
@@ -190,6 +194,10 @@ text-align: left;
       height: 600px;
   
     }
+    .right-cover{
+display:none;
+    }
+   
   }
 
   /* end of login reg */
@@ -481,4 +489,108 @@ text-align: left;
 .article2_yellow_section{
 background-color: #f7f7f1;
 }
+
+.read_other_articles{
+background-color: #000000;
+}
+
+.read_other_articles_heading{
+color:#ffffff;
+  font-family: Libre Baskerville;
+font-size: 40px;
+font-weight: 300;
+text-align: left;
+
+
+}
+.read_other_articles_heading_knowledge{
+font-size: 100px;
+font-weight: 300;
+line-height: 165px;
+letter-spacing: -7px;
+text-align: left;
+width: 842px;
+height: 165px;
+top: 4263px;
+left: 634px;
+opacity: 0.1px;
+
+
+
+/* font-family: 'Roboto', sans-serif; */
+}
+
+.effect_heading{
+  font-family: Libre Baskerville;
+  font-size: 28px;
+  font-weight: 400;
+  color:#fcfcfc;
+  text-align: left;
+margin-top:54px;
+  }
+  .effect_p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    color:#9c9c9c;
+  }
+
+  .effect{
+padding:20px;
+  }
+
+  .read_other_col{
+    padding: 20px;
+    z-index: 1;
+  }
+
+  .knowledge_col{
+    margin-left: -107px;
+    /* z-index: 3; */
+  }
+  
   /*end of  article2 page*/
+
+   /*start of  article3 page*/
+
+   .article3_heading_section{
+    
+   }
+
+   .article3_slider_section{
+    background-image: 
+    url("/images/article3_slider_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+     background-position: center; 
+    
+    height:700px;
+   }
+   .article3_heading{
+    font-family: Libre Baskerville;
+    font-size: 40px;
+    font-weight: 400;
+    /* line-height: 95px; */
+    letter-spacing: 0px;
+    text-align: center;
+    z-index: 1;
+   }
+   .article3_student_text{
+    font-family: sans-serif;
+font-size: 58px;
+font-weight: 400;
+text-align: left;
+
+   }
+   .article3_student_text_col{
+    z-index: 1;
+    position:absolute;
+   }
+
+   .article3_student_img_col{
+    position:relative;
+    margin-left:328px;
+   }
+    /*end of  article3 page*/
