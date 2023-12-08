@@ -195,9 +195,20 @@ text-align: left;
   
     }
     .right-cover{
-display:none;
+      display:none;
     }
-   
+    .knowledge_col {
+      margin-left: auto !important;
+      
+    }
+    .read_other_articles_heading_knowledge{
+      margin-left: auto !important;
+      margin-right: auto !important;
+      font-size: 126px !important;;
+    }
+    .article3_student_img_col{
+      display:none;
+    }
   }
 
   /* end of login reg */
@@ -458,7 +469,7 @@ text-align: left;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
    background-position: center; 
-  background-position: 0 104px !important;
+  background-position: 0 140px !important;
   height:700px;
 }
 .article2_white_section{
@@ -466,7 +477,7 @@ text-align: left;
 }
 .center {
   margin: auto;
-  width: 60%;
+  width: 100%;
   text-align:justify;
   padding:40px;
    
@@ -497,20 +508,23 @@ background-color: #000000;
 .read_other_articles_heading{
 color:#ffffff;
   font-family: Libre Baskerville;
-font-size: 40px;
+font-size: 46px;
 font-weight: 300;
 text-align: left;
+margin-top:30px;
 
 
 }
 .read_other_articles_heading_knowledge{
-font-size: 100px;
-font-weight: 300;
-line-height: 165px;
+ margin-left:-39px;
+ margin-top:16px;
+font-size: 136px;
+font-weight: 350;
+/* line-height: 165px; */
 letter-spacing: -7px;
 text-align: left;
-width: 842px;
-height: 165px;
+
+/* height: 165px; */
 top: 4263px;
 left: 634px;
 opacity: 0.1px;
@@ -522,15 +536,16 @@ opacity: 0.1px;
 
 .effect_heading{
   font-family: Libre Baskerville;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 400;
   color:#fcfcfc;
   text-align: left;
-margin-top:54px;
+  margin-top:-8px;
+
   }
   .effect_p{
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
     text-align: justify;
     color:#9c9c9c;
@@ -541,13 +556,32 @@ padding:20px;
   }
 
   .read_other_col{
-    padding: 20px;
+    /* padding: 20px; */
+   
     z-index: 1;
   }
 
   .knowledge_col{
-    margin-left: -107px;
+    margin-left: -55px;
     /* z-index: 3; */
+  }
+
+
+  .left_right_icon{
+float:right;
+  }
+
+  .article_slider_img{
+    margin-top:30px;
+    height:315px;
+    width:718px;
+/* margin-top:65px; */
+  }
+
+  .article_row{
+    margin-bottom:
+84px;
+    
   }
   
   /*end of  article2 page*/
@@ -565,8 +599,8 @@ padding:20px;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
      background-position: center; 
-    
     height:700px;
+    
    }
    .article3_heading{
     font-family: Libre Baskerville;
@@ -579,18 +613,82 @@ padding:20px;
    }
    .article3_student_text{
     font-family: sans-serif;
-font-size: 58px;
+font-size: 68px;
 font-weight: 400;
 text-align: left;
+position:absolute;
+/* top: 50%;
+  left: 50%; */
+  transform: translate(-64%, -156%); 
+  line-height:80px;
 
    }
    .article3_student_text_col{
     z-index: 1;
-    position:absolute;
+    /* position:absolute; */
    }
 
    .article3_student_img_col{
-    position:relative;
-    margin-left:328px;
+    /* position:relative;
+    margin-left:328px; */
    }
     /*end of  article3 page*/
+
+    /*cv_slider start*/
+    .cv_slider{
+    background-image: 
+    url("/images/cv_slider.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+     background-position: center; 
+     height:400px;
+     /* background-color: #000000; */
+    }
+    .cv_slider_heading{
+      
+      width:500px;
+      margin:auto;
+      padding-top: 40px;
+      
+     }
+
+     .cv_slider_heading h1{
+      
+      font-family: Libre Baskerville;
+      font-size: 60px;
+      font-weight: 400;
+      text-align: center;
+      color:#fcfcfc;
+     }
+
+     .cv_slider_para{
+      width:600px;
+      margin:auto;
+      font-size: 17px;
+      font-weight: 400;
+      text-align: center;
+      color:#fcfcfc;
+      }
+      .cv_para{
+text-align: justify;
+font-size: 21px;
+      }
+
+      .cv_para_section{
+
+      }
+      .cv_starting_pointer_heading{
+        font-family: Libre Baskerville;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0px;
+        text-align: justified;
+        
+      }
+      .cv_starting_pointer_p{
+        text-align: justify;
+        font-weight:500;
+      }
+    /*cv_slider end*/
