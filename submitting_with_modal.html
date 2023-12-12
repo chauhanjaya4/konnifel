@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>submitting without modal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal modal_con fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center">
+        <button type="button" class="close" data-dismiss="modal"><img src="images/icons/modal_close_btn.svg" alt=""></button>
+        <div class="">
+          
+          <h4 class="modal-title">Submitting with Letter</h4>
+          <p class="modal_p">Awesome, submitting with cover letter makes you in top 5% students</p>
+        </div>
+        <div id="main">
+          <a class="cancel_btn_modal" data-dismiss="modal">Cancel</a>
+          <a  class="submit_btn_modal">Submit</a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+</script>
+
+</body>
+</html>
