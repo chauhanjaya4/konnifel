@@ -1,4 +1,43 @@
+.dark_section{
+background-color: #000000;
+}
+.yellow_bg{
+  background-color: #f7f7f1;
+  }
+  .font_black{
+  font-family: Libre Baskerville;
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: 0px;
+  text-align: left;
+  }
+  .red_btn{
+    background-color:#a6102b;
+    color:#f1f1f1;
+    width: 250px;
+    padding:5px;
+    height:40px;
+    float:right;
+        };
+        .red{
+
+        }
+  
+  .red_btn:hover{
+  background-color: #8e061e;
+  }
+  .red_btn a{
+            padding:15px;
+            font-weight:600;
+            
+          font-size: 12px;
+      
+          }
+
 /* login reg start */
+
+
 .reg_form{
   width:50%;
   
@@ -1007,31 +1046,16 @@ margin-left: 276px;
     
 
 font-family: Libre Baskerville;
-font-size: 47px;
+font-size: 56px;
 font-weight: 400;
-line-height: 80px;
+line-height: 100px;
 letter-spacing: 0em;
 text-align: left;
     }
 
-    .contribute_now{
-background-color:#a6102b;
-color:#f1f1f1;
-width: 100%;
-padding:5px;
-height:40px;
-    }
+    
 
-    .contribute_now:hover{
-    background-color: #8e061e;
-    }
-    .contribute_now a{
-      padding:15px;
-      font-weight:300;
-      font-weight: 500;
-    font-size: 12px;
-
-    }
+    
 
     .like_writing{
 text-align: left;
@@ -1149,3 +1173,114 @@ text-decoration: none;
   text-decoration: none;
 }
     /*end modal*/
+
+
+    /*rcat start*/
+
+    .understanding_rcat_p{
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+      letter-spacing: 0px;
+      text-align: justified;
+      
+    }
+
+    .dark_row{
+      padding: 70px 10px 
+    }
+.step1_h2{
+  /* font-family: Roboto; */
+  color:#dad2bc;
+          font-size: 14px;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          padding-bottom:70px;
+          }
+
+          .step1_p{
+            /* font-family: Roboto; */
+            border-top: 4px solid#A6102B;
+            color:#dad2bc;
+font-size: 15px;
+font-weight: 90;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+                }
+
+  
+    /* end of rsat*/
+    .apear_for_rsat{
+      background-image: 
+      url("/images/appear_rsat.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center
+    }
+
+    .apear_for_rsat_text{
+      /* font-family: Roboto; */
+      font-size: 123px;
+      font-weight: 300;
+      line-height: 145px;
+      letter-spacing: -11px;
+      text-align: left;
+      color:#a6102b;
+      }
+
+      .step3_h1{
+        /* font-family: Roboto;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: left; */
+        
+        
+        font-size: 32px;
+        font-weight: 300;
+        line-height: 36px;
+        letter-spacing: 0px;
+        text-align: left;
+        color:#dad2bc;
+        }
+        .step2_h2{
+          color:#dad2bc;
+          font-size: 15px;
+          font-weight: 700;
+          letter-spacing: 1.5px;
+          padding-bottom:10px;
+        }
+        .step2_p{
+color:#dad2bc;
+text-align:justify; 
+border-top: 4px solid#A6102B;
+padding-top:80px;
+font-size: 15px;
+font-weight: 90;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+
+        }
+
+        .step3_p{
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 26px;
+          letter-spacing: 0px;
+          text-align: left;
+          color:#dad2bc;
+          margin-top: 30px 
+        }
+        .step3_h2{
+          font-size: 15px;
+          font-weight: 700;
+          line-height: 24px;
+          letter-spacing: 1.5px;
+          text-align: left;
+          color: #a6102b;
+        }
