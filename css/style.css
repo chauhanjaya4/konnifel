@@ -1215,9 +1215,9 @@ text-align: left;
     .apear_for_rsat{
       background-image: 
       url("/images/appear_rsat.jpg");
-      background-size: cover;
+      /* background-size: cover; */
       background-repeat: no-repeat;
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
       background-position: center
     }
 
@@ -1284,3 +1284,19 @@ text-align: left;
           text-align: left;
           color: #a6102b;
         }
+
+        /* start of professor_land_section*/
+        .professor_land_section{
+        background-image: 
+      url("/images/professor_landing_bgimg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      height:1200px;
+        }
+         /* start of professor_land_section*/
+
+         /*the articles mobile*/
+         
+         /*
