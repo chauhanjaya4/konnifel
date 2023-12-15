@@ -15,16 +15,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<!-- <script src="custom.js"></script> -->
+<script src="js/custom.js"></script>
 </head>
 <body>
-    <section class="professor_land_section showcase">
+    <h1>Video Player</h1>
 <div class="video-wrapper">
 	<div class="video-container" id="video-container">
-		<video autoplay controls src="/images/professor_landing.mp4" id="video" preload="metadata" >
+		<video controls src="/images/professor_landing.mp4" id="video" preload="metadata" >
 			
 		</video>
-		<div class="overlay"></div>
+
 		<div class="play-button-wrapper">
 			<div title="Play video" class="play-gif" id="circle-play-b">
 				<!-- SVG Play Button -->
@@ -33,14 +33,11 @@
 				</svg>
 			</div>
 		</div>
-		<div class="text">
     <h2>Lorem ipsum dolor sit amet consectetur. Netus sodales lacus feugiat faucibus.</h2>
-</div>	
+	</div>
 </div>
-</div>
-</section>
 </body>
-<script>
+<!-- <script>
     const video = document.getElementById("video");
 const circlePlayButton = document.getElementById("circle-play-b");
 
@@ -60,5 +57,5 @@ video.addEventListener("pause", function () {
 	circlePlayButton.style.opacity = 1;
 });
 
-</script>
+</script> -->
 </html>

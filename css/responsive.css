@@ -81,4 +81,8 @@ font-size:21px!important;
     margin-bottom: 120px !important;
     width: 100% !important; 
     }
+
+    .skip_letter {
+        padding:0 !important;
+    }
 }
