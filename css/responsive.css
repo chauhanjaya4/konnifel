@@ -85,4 +85,24 @@ font-size:21px!important;
     .skip_letter {
         padding:0 !important;
     }
+
+    .left_right_icon {
+        width: 30% !important;
+        /* float: right; */
+        position: relative  ;
+        margin-top: 889px !important;
+        
+    }
+    .article_row {
+        padding:1px;
+    }
+    .effect_heading{
+        padding:7px;
+height:250px;
+font-size:40px;
+    }
+
+    .knowledge_col {
+        /* padding:10px; */
+    }
 }

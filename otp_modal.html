@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Enter OTP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" id="myBtn">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal modal_con fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content otp_email  otp_content center">
+        <button type="button" class="close clo" data-dismiss="modal"><img src="images/icons/modal_close_btn.svg" alt=""></button>
+        <div class="">
+          
+          <h4 class="modal-title ">Enter OTP</h4>
+          <p class="modal_p">please enter OTP to verify your email and phone number</p>
+          <div class="otp_email center">
+            <h5 class=" modal-title enter_otp">OTP sent to your email</h5>
+        <div id="inputs" class="inputs"> 
+            <input class="input" type="text" 
+                inputmode="numeric" maxlength="1" /> 
+            <input class="input" type="text" 
+                inputmode="numeric" maxlength="1" /> 
+            <input class="input" type="text" 
+                inputmode="numeric" maxlength="1" /> 
+            <input class="input" type="text" 
+                inputmode="numeric" maxlength="1" /> 
+                <input class="input" type="text" 
+                inputmode="numeric" maxlength="1" /> 
+                <input class="input" type="text" 
+                inputmode="numeric" maxlength="1" /> 
+        </div>   
+    </div>
+
+    <div class="otp_mobile center">
+        <h5 class="modal-title enter_otp">OTP sent to your registered phone</h5>
+    <div id="inputs" class="inputs"> 
+        <input class="input" type="text" 
+            inputmode="numeric" maxlength="1" /> 
+        <input class="input" type="text" 
+            inputmode="numeric" maxlength="1" /> 
+        <input class="input" type="text" 
+            inputmode="numeric" maxlength="1" /> 
+        <input class="input" type="text" 
+            inputmode="numeric" maxlength="1" /> 
+            <input class="input" type="text" 
+            inputmode="numeric" maxlength="1" /> 
+            <input class="input" type="text" 
+            inputmode="numeric" maxlength="1" /> 
+    </div>   
+</div>
+        
+        </div>
+        <div id="main">
+          
+          <a  class="submit_btn_modal">Submit</a>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+
+
+
+const inputs = document.getElementById("inputs"); 
+  
+inputs.addEventListener("input", function (e) { 
+    const target = e.target; 
+    const val = target.value; 
+  
+    if (isNaN(val)) { 
+        target.value = ""; 
+        return; 
+    } 
+  
+    if (val != "") { 
+        const next = target.nextElementSibling; 
+        if (next) { 
+            next.focus(); 
+        } 
+    } 
+}); 
+  
+inputs.addEventListener("keyup", function (e) { 
+    const target = e.target; 
+    const key = e.key.toLowerCase(); 
+  
+    if (key == "backspace" || key == "delete") { 
+        target.value = ""; 
+        const prev = target.previousElementSibling; 
+        if (prev) { 
+            prev.focus(); 
+        } 
+        return; 
+    } 
+});
+</script>
+
+</body>
+</html>

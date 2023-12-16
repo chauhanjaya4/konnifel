@@ -150,6 +150,7 @@ color: #FCFCFC;
 float:right;
 text-align: center;
 border: none;
+
   }
 
   .register_btn:hover{
@@ -250,7 +251,9 @@ text-align: left;
     .read_other_articles_heading_knowledge{
       margin-left: auto !important;
       margin-right: auto !important;
-      font-size: 126px !important;;
+      /* font-size: 126px !important;; */
+      font-size: 85px !important;
+
     }
     .article3_student_img_col{
       /* display:none; */
@@ -676,7 +679,11 @@ padding:20px;
 
 
   .left_right_icon{
-float:right;
+    width:18%;
+float: right;
+position:relative;
+margin-top: 345px;
+    /* margin-left: 769px;  */ 
   }
 
   .article_slider_img{
@@ -687,8 +694,8 @@ float:right;
   }
 
   .article_row{
-    margin-bottom:
-84px;
+     margin-bottom:
+84px; 
     
   }
   
@@ -877,8 +884,16 @@ height:600px;
         letter-spacing: 0px;
         text-align: left;
         padding:10px;  
+        
         color:#272727;
         text-decoration: none;      
+      }
+      .skip_div{
+        padding-bottom: 20px;
+      }
+      .skip_letter_right{
+      background-color:#a6102b;
+      color:#FCFCFC;
       }
       .skip_div{
 
@@ -902,8 +917,8 @@ height:15px;
       }
 
       .skip_letter:hover{
-        background-color:#a6102b;
-        color:#f6f6f6;
+        
+        /* color:#f6f6f6; */
       }   
 
       .new_article_top_h1{
@@ -1163,15 +1178,17 @@ text-decoration: none;
 
 .submit_btn_modal{
   /* font-family: Roboto; */
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 23px;
   letter-spacing: 0px;
   text-align: center;
   color:#7e7e7e;
   text-decoration: none;
   padding:15px;
+  background-color: #a6102b;
   width:150px;
+  color:#ffffff;
 }
 
 .submit_btn_modal:hover{
@@ -1375,3 +1392,63 @@ text-align: left;
          /*the articles mobile*/
          
          /*
+/*extra*/
+
+.carousel-item{
+  /* float: none !important; */
+}
+
+/*extra end*/
+
+/*otp start*/
+
+.otp_content{
+height:auto !important;
+}
+
+.input { 
+  width: 50px; 
+  height:50px;
+  border:1px solid #d9d9d9;
+  border-radius: 6%; 
+  /* border: 3px solid rgba(0, 0, 0, 0.5);  */
+  margin: 0 10px; 
+  text-align: center; 
+  font-size: 16px; 
+  cursor: not-allowed; 
+  pointer-events: none; 
+  background-color: #d9d9d9;
+} 
+
+.enter_otp{
+font-size: 20px !important;
+}
+
+.input:focus { 
+  border-bottom: 3px solid orange; 
+  outline: none; 
+} 
+
+.input:nth-child(1) { 
+  cursor: pointer; 
+  pointer-events: all; 
+}
+
+.otp_email{
+  /* display: flex;  */
+    /* justify-content: center;  */
+    /* align-items: center;  */
+    /* min-height: 5vh;  */
+    padding: 20px !important;
+}
+
+.otp_mobile{
+  padding: 20px !important;
+
+}
+
+.clo{
+margin-top:-14px !important;
+margin-right: -8px !important;
+}
+/*otp end*/
