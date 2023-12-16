@@ -1405,7 +1405,10 @@ text-align: center;
 .otp_content{
 height:auto !important;
 }
+.inputs{
+  padding: 39px !important;
 
+}
 .input { 
   width: 50px; 
   height:50px;
@@ -1436,7 +1439,7 @@ font-size: 20px !important;
 
 .otp_email{
   /* display: flex;  */
-    /* justify-content: center;  */
+    justify-content: center; 
     /* align-items: center;  */
     /* min-height: 5vh;  */
     padding: 20px !important;
