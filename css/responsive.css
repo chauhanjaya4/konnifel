@@ -105,4 +105,8 @@ font-size:40px;
     .knowledge_col {
         /* padding:10px; */
     }
+
+    .gallery_img {
+        width:100%;
+    }
 }

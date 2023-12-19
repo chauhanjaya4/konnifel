@@ -19,36 +19,102 @@
 <body>
 
     <section class="new_article_top">
-        <div class="container">
+        <div class="container-fluid">
         <h1 class="new_article_top_h1">New Articles</h1>
     <div class="row">
         <div class="col-sm-3">
-            <div class="new_article_top_p d-flex"><div>Research</div></div>
-            <div class="new_article_top_p">Pursuing PhD</div>
-            <div class="new_article_top_p">Research Opportunities</div>
-            <div class="new_article_top_p">Sneak Peek into Research Life</div>
-            <div class="new_article_top_p">Getting Started in Research</div>
+            <div class="new_article_top_p d-flex">
+            <div>Research</div> 
+            </div>
+            <div class="new_article_top_p d-flex">
+              <div>Pursuing PhD </div>
+              
+                
         </div>
-        <div class="col-sm-8">
-                <div class="rec_icons">
-                <div >
-                    <div class="first-image">
-                        <img src="images/icons/rect_line.svg" style="width:300px;" alt=""><img src="images/icons/eclipse.svg" alt="">
-                </div>
-                    </div>
+            <div class="new_article_top_p d-flex"><div>Research Opportunities  </div>
+               
+            </div>
+            <div class="new_article_top_p d-flex"><div>Sneak Peek into Research Life</div>
                 
             </div>
+            <div class="new_article_top_p d-flex"><div>Getting Started in Research</div>
+                
+            </div>
+        </div>
+        <div class="col-sm-9">
+                <!-- <div class="rec_icons">
+                    <div >
+                      <div class="first-image">
+                        <img src="images/icons/rect_line.svg" style="width:300px;" alt=""><img src="images/icons/eclipse.svg" alt="">
+                      </div>
+                    </div>
+                </div> -->
             
-            <div class="gallery_images">
+            <div class="gallery_images container" style="margin-left: 50px;" >
                 
                    
-                <div class="col-1-of-5 img-1 "><div ><img class="gallery_img image-1" src="images/new_article_gal1.jpg" alt=""></div></div>
+                <div class="col-1-of-5 img-1"> 
+                    <div class="d-flex im_with_icon" >
+                    <div class="rec_icons research  " style="margin-left: -190px;margin-top:55px;">
+                    <div >
+                      <div class="first-image d-flex" >
+                        <img src="images/icons/rect_line.svg" style="width:270px" class="img1" alt=""><img src="images/icons/eclipse.svg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <img class="gallery_img image-1" src="images/new_article_gal1.jpg" alt="">
+            </div>
             
-                <div class="col-1-of-5 img-2"><img class="gallery_img image-2" src="images/new_article_gal2.jpg" alt=""></div>
-                <div class="col-1-of-5 img-3"><img class="gallery_img image-3" src="images/new_article_gal3.jpg" alt=""></div>
+                <div class="col-1-of-5 img-2"> 
+                    <div class="d-flex im_with_icon" >
+                    <div class="rec_icons  " style="margin-left: -200px; margin-top:110px;">
+                    <div >
+                      <div class="first-image d-flex">
+                        <img src="images/icons/rect_line.svg" style="width:250px"  alt=""><img src="images/icons/eclipse.svg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <img class="gallery_img image-3" src="images/meeting.jpg" alt="">
+            </div>
+                <div class="col-1-of-5 img-3">
+                    <div class="d-flex im_with_icon" >
+                        <div class="rec_icons  " style="margin-left: -160px; margin-top:168px;">
+                            <div >
+                              <div class="first-image d-flex">
+                                <img src="images/icons/rect_line.svg" style="width:240px"   alt=""><img src="images/icons/eclipse.svg" alt="">
+                                </div>
+                              </div>
+                            </div>
+                    <img class="gallery_img image-3" src="images/brainstorm-meeting.jpg" alt="">
+                    </div>
+                </div>
                 
-                <div class="col-1-of-5 img-4"><img class="gallery_img image-4" src="images/new_article_gal4.jpg" alt=""></div>
-                <div class="col-1-of-5 img-5"><img class="gallery_img image-5" src="images/new_article_gal5.jpg" alt=""></div>
+                <div class="col-1-of-5 img-4">
+                    <div class="d-flex im_with_icon" >
+                        <div class="rec_icons  " style="margin-left: -190px; margin-top:225px;">
+                            <div >
+                              <div class="first-image d-flex">
+                                <img src="images/icons/rect_line.svg" style="width:250px"  alt=""><img src="images/icons/eclipse.svg" alt="">
+                                </div>
+                              </div>
+                            </div>
+                    <img class="gallery_img image-4" src="images/college3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-1-of-5 img-5">
+                    <div class="d-flex im_with_icon" >
+                        <div class="rec_icons  " style="margin-left: -300px;margin-top:295px;">
+                            <div >
+                              <div class="first-image ">
+                                <img src="images/icons/rect_line.svg" style="width:340px"  alt=""><img src="images/icons/eclipse.svg" alt="">
+                                </div>
+                              </div>
+                            </div>
+                    <img class="gallery_img image-5" src="images/meeting1.jpg" alt="">
+                    </div>
+                </div>
         </div>
     
     
@@ -106,8 +172,12 @@
                 </div>
                 <div class="col-sm-4">
                   <p class="like_writing">Like writing on Research?Contribute to our Blogs by submitting your write-ups on contact@konnifel.com</p>  
-                  <div class="red_btn">
-                  <a  >CONTRIBUTE NOW</a><img src="images/icons/right.svg" class="contribute_arrow" alt="">
+                  <div class="red_btn contribute_btn">
+                    <div>
+                  <a  >CONTRIBUTE NOW</a><svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 409" fill="currentColor" class="bi bi-arrow-right icon_right_contribute" >
+                    <path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"/>
+                  </svg>
+                </div>
                 </div>
                 </div>
             </div>
@@ -115,4 +185,61 @@
          </div> 
      </section>
     </body>
+    <!-- <script>
+        const div = document.querySelector(".image-1");
+        const div2 = document.querySelector(".image-2");
+        const div3 = document.querySelector(".image-3");
+        const div4 = document.querySelector(".image-4");
+        const div5 = document.querySelector(".image-5");
+
+const icon = document.querySelector(".research");
+const icon2 = document.querySelector(".persuing");
+const icon3 = document.querySelector(".research_opp");
+const icon4 = document.querySelector(".sneak");
+const icon5 = document.querySelector(".getting");
+const none = document.querySelector(".d-none");
+// 1 reserc icon5
+// div.addEventListener('mouseenter', () => icon5.classList.remove = none);
+
+div.addEventListener('mouseenter', () => icon2.style.opacity = 0);
+div.addEventListener('mouseenter', () => icon3.style.opacity = 0);
+div.addEventListener('mouseenter', () => icon4.style.opacity = 0);
+div.addEventListener('mouseenter', () => icon5.style.opacity = 0);
+div.addEventListener('mouseenter', () => icon.style.opacity = 1);
+
+div.addEventListener('mouseleave', () => icon.style.opacity = 0);
+// 2 pers icon
+div2.addEventListener('mouseenter', () => icon.style.opacity = 0);
+div2.addEventListener('mouseenter', () => icon3.style.opacity = 0);
+div2.addEventListener('mouseenter', () => icon4.style.opacity = 0);
+div2.addEventListener('mouseenter', () => icon5.style.opacity = 0);
+div2.addEventListener('mouseenter', () => icon2.style.opacity = 1);
+div.addEventListener('mouseleave', () => icon2.style.opacity = 0);
+
+// 3 getting icon2
+div3.addEventListener('mouseenter', () => icon.style.opacity = 0);
+div3.addEventListener('mouseenter', () => icon2.style.opacity = 0);
+div3.addEventListener('mouseenter', () => icon4.style.opacity = 0);
+div3.addEventListener('mouseenter', () => icon5.style.opacity = 0);
+div3.addEventListener('mouseenter', () => icon3.style.opacity = 1);
+div3.addEventListener('mouseleave', () => icon3.style.opacity = 0);
+
+// 4 sneak icon4
+
+div4.addEventListener('mouseenter', () => icon.style.opacity = 0);
+div4.addEventListener('mouseenter', () => icon2.style.opacity = 0);
+div4.addEventListener('mouseenter', () => icon3.style.opacity = 0);
+div4.addEventListener('mouseenter', () => icon5.style.opacity = 0);
+div4.addEventListener('mouseenter', () => icon4.style.opacity = 1);
+div4.addEventListener('mouseleave', () => icon4.style.opacity = 0);
+
+//5 icon3
+
+div5.addEventListener('mouseenter', () => icon.style.opacity = 0);
+div5.addEventListener('mouseenter', () => icon2.style.opacity = 0);
+div5.addEventListener('mouseenter', () => icon3.style.opacity = 0);
+div5.addEventListener('mouseenter', () => icon4.style.opacity = 0);
+div5.addEventListener('mouseenter', () => icon5.style.opacity = 1);
+div5.addEventListener('mouseleave', () => icon5.style.opacity = 0);
+    </script> -->
     </html>
