@@ -17,11 +17,25 @@
     }
 
     .like_writing {
-        text-align: right !important;
+        /* text-align: right !important; */
         font-weight: 500;
-        font-size:26px !important;
+        /* font-size:26px !important; */
     color: #272727;
     padding-left: 92px;
+    }
+
+    .new_article_top_h1 {
+        /* font-size:42px !important; */
+        line-height: 90px !important;
+    }
+
+    .value_to {
+        line-height: 50px !important; 
+    }
+
+    .case_studies {
+        /* font-size:100px !important; */
+         /* line-height: 80px !important;  */
     }
 
     .step1_img{
@@ -107,6 +121,75 @@ font-size:40px;
     }
 
     .gallery_img {
-        width:100%;
+        width: 120px !important;
+        height:110px !important;
     }
+
+    .gallery_images .col-1-of-5{
+        width: 50px !important;
+    }
+    /* .gallery_img {
+        width: 150px !important;
+    } */
+
+    .topics_col{
+ width:26% !important; 
+    }
+
+    .gallery_images_col{
+        width:30% !important; 
+    }
+
+    .new_article_top_p {
+        font-size:9px !important;
+        line-height:0.7rem !important;
+        margin-top: 0.3rem !important;
+        width:81px;
+    }
+    .gallery_images{
+margin-left: 0 !important;
+    }
+
+    .rec_icons {
+    
+    }
+
+    .img1{
+width:70px !important;
+    }
+    .img2{
+    width:55px !important;
+     }
+    .img3{
+    width:90px !important;
+     }
+    .img4{
+    width:90px !important;
+    }
+     .image5{
+    width:110px !important;
+    } 
+    .research{
+        margin-left: -31px !important;
+        margin-top: 10px !important;   
+    }
+
+    .persuing{
+        margin-left: -29px !important;
+        margin-top: 22px !important;   
+    }
+
+    .research_op{
+        margin-left: -65px !important;
+        margin-top: 39px !important;   
+    }
+    .sneak_peak{
+        margin-left: -61px !important;
+        margin-top: 70px !important;   
+    }
+
+     .getting_started{
+        margin-left: -70px !important; 
+        margin-top: 87px !important;   
+    } 
 }
