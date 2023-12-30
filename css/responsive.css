@@ -192,4 +192,184 @@ width:70px !important;
         margin-left: -70px !important; 
         margin-top: 87px !important;   
     } 
+
+    .article3_student_text {
+        font-size:40px !important;
+    }
+
+    .more_articles_heading {
+        font-size: 30px !important;
+    }
+
+    .article3_heading{
+        font-size: 16px !important;
+    }
+    .getting_an{
+        background-size: 100% 100% !important;
+    }
+    .getting_an_heading {
+        padding: 143px 31px 39px !important;
+        width: 375px !important;
+    }
+
+    .getting_an_h3 {
+       
+        font-size: 30px !important;
+        
+        letter-spacing: 1px !important;
+        line-height:30px !important;
+    }
+    .approach_to_h3 {
+        font-size: 52px !important;
+        line-height: 62px !important;
+    }
+    .approach_to_h2 {
+        font-size: 65px !important;
+        letter-spacing: -7px !important;
+    }
+
+    .hide{
+        display:none;
+    }
+.desktop{
+    display: none;
+}
+
+.hand_img {
+    padding: 2px 2px 34px !important;
+}
+
+.hand_text {
+    padding: 2px 51px 1px !important;
+    padding-left: 0px !important;
+}
+
+.hand_p{
+    font-size:14px !important;
+}
+
+
+.border-top{
+    border-top: 3px solid #c2bcbe;
+    
+    }
+/* .border-top_col::after{
+content:"";
+position:absolute;
+transform:translatex(-100%);
+border-top:2px solid #a6102b;
+transition:0.3s;
+z-index: -1;
+transform-origin: top left;
+}
+
+.border-top_col:hover a::after {
+    transform: translatex(0);
+  } */
+  .container_img_hover{
+    position: relative;
+  }
+  .overlay_im{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  .container_img_hover:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 10px 15px;
+    margin: 0 10px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  nav ul li a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translatex(-100%);
+    background-color: #fafafa;
+    border-top: 2px solid mediumaquamarine;
+    transition: 0.3s;
+    z-index: -1;
+    transform-origin: top left;
+  }
+  nav ul li:hover a::after {
+    transform: translatex(0);
+  }
+
+  #container {
+    
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+#record {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+#sleeve {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 10;
+}
+#record {
+    -webkit-transition: left 0.5s ease-out; 
+       -moz-transition: left 0.5s ease-out; 
+        -ms-transition: left 0.5s ease-out; 
+         -o-transition: left 0.5s ease-out; 
+            transition: left 0.5s ease-out;
+  }
+  
+  #container:hover #record {
+      left: 100px;  /* This is assuming you want it to slide from left-to-right */
+  }
+   
+}
+
+@media only screen and (min-width: 575px) {
+
+    
+    .mobile{
+        display: none;
+    }
 }

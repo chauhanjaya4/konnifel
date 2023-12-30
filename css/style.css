@@ -475,7 +475,7 @@ gap: 8px;
 
 .save_article_college_img{
   width:100%;
-  height:298px;
+  /* height:298px; */
 }
 
 .container_article_dark{
@@ -568,6 +568,12 @@ color:#272727;
   letter-spacing: 0em;
   text-align: left;
   
+}
+
+.more_articles_col{
+padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 25px;
 }
   /* end of article1 page  */
 
@@ -767,6 +773,10 @@ position:absolute;
 
    .caption p{
 font-size:15px;
+text-align: left;
+    font-weight: 500;
+    color: #272727;
+    padding: 10px 0px 10px ;
    }
     /*end of  article3 page*/
 
@@ -1447,6 +1457,13 @@ text-align: left;
           object-fit: cover;
           opacity:0.8;
         }
+        #circle-play-b{
+          display: none;
+        }
+
+        #circle-pause-b2{
+          display: none;
+        }
 .overlay{
   position: absolute;
   top:0;
@@ -1569,3 +1586,374 @@ margin-top:-14px !important;
 margin-right: -8px !important;
 }
 /*otp end*/
+
+/*our vision*/
+.getting_an{
+  background-image: 
+  url("/images/our_vision/our_vision_slider.jpg");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  height:481px;
+}
+
+.getting_an_heading{
+  padding: 126px 121px 60px;
+    width: 716px;
+
+}
+.getting_an_h3{
+  font-family: Libre Baskerville;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: -4px;
+  text-align: left;
+  color:#fcfcfc;
+  
+}
+.getting_an_p{
+  text-align: left;
+  color:#fcfcfc;
+  font-size: 23px;
+}
+
+
+.approach_to_section{
+  background-color: #f7f7f1;
+
+}
+.approach_to{
+height:340px;
+}
+
+.approach_to_h2{
+  font-family: Poppins;
+  font-size: 163px;
+  font-weight: 300;
+  line-height: 165px;
+  letter-spacing: -13px;
+  text-align: right;
+  /* position:absolute;   */
+  color:#f0f0eb;
+  
+  /* z-index:6px; */
+}
+.approach_to_h3{
+  font-family: Libre Baskerville;
+  font-size: 82px;
+  font-weight: 400;
+  line-height: 102px;
+  letter-spacing: -5px;
+  text-align: left;
+color:#272727;  
+position:absolute;
+margin-top:96px;
+padding-left:25px;
+}
+
+.our_mission{
+
+}
+
+.aproach_to_achieve{
+
+}
+
+.hand_img{
+  padding: 80px 22px 34px;
+}
+
+.hand_heading{
+  font-family: Poppins;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 20px;
+  
+}
+.hand_text{
+  padding: 2px 14px 20px;
+}
+
+.hand_p{
+  font-family: Poppins;
+  font-size: 11.5px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  
+}
+
+.frst_col_p_bold{
+font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.frst_col_p{
+font-family: Poppins;
+font-size: 15px;
+font-weight: 300;
+line-height: 25px;
+letter-spacing: 0px;
+text-align: left;
+padding:20px;
+}
+
+
+.paving_path_h2{
+  font-family: Poppins;
+  font-size: 118px;
+  font-weight: 300;
+  line-height: 109px;
+  letter-spacing: -7px;
+  text-align: left;
+  /* position:absolute;   */
+  color:#f0f0eb;
+  
+  /* z-index:6px; */
+}
+.paving_path_h3{
+  font-family: Libre Baskerville;
+  font-size: 73px;
+  font-weight: 400;
+  line-height: 90px;
+  letter-spacing: -4px;
+  text-align: left;
+color:#272727;  
+position:absolute;
+margin-top:65px;
+padding-left:25px;
+}
+
+.paving_play-button-wrapper{
+position: absolute;
+    
+margin-top: -62px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+}
+
+.paving_text-right_heading{
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 30px;
+}
+.paving_text-right_heading_bold{
+ 
+  color:#1b8140;
+  
+}
+
+.img-left_row2{
+padding-bottom:80px;
+}
+
+
+.paving_text-left_heading{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding-left: 30px;
+  /* padding-right: 30px; */
+  
+}
+
+.video-wrapper{
+height: 280px;
+    width: 293px;
+    
+   
+}
+#video-wrapper2{
+  
+      filter:grayscale(1);
+     
+  }
+
+.second_wrap{
+  margin-top:80px;
+}
+.video-container{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  /* background-image: url('/images/appear_rsat.jpg'); */
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* width: 100%; */
+  height: 100%;
+  border: none;
+}
+.play-button-wrapper_paving{
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  bottom: 0;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+/* .video-control:not(.playing) .video-control-pause, */
+.video-control:not(.playing) .video-control-play {
+	display: none;
+}
+
+.video-control2:not(.playing) .video-control-pause2,
+.video-control2.playing .video-control-play2 {
+	display: none;
+}
+
+.pause_btn{
+background-image: url(/images/our_vision/pause_btn.png);
+width:50px;
+height:50px;
+border:none;
+position:absolute;
+  bottom:0;
+  left: 0;
+}
+.play_btn{
+  background-image: url(/images/our_vision/paving_arrow.png);
+  width:50px;
+  height:50px;
+  border:none;
+  position:absolute;
+  bottom:0;
+  left: 0;
+  }
+.vision_arrow{
+width:40px;
+height:40px;
+}
+
+.our_mis_trans_text{
+  font-family: Poppins;
+  font-size: 144px;
+  font-weight: 300;
+  line-height: 75px;
+  letter-spacing: 0px;
+  text-align: left;
+  color:#f0f0eb;
+  
+}
+
+.trans_lives_text{
+  font-family: Libre Baskerville;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 110px;
+  letter-spacing: -5px;
+  text-align: center;
+  
+}
+
+.transforming_lives{
+background-color: #f7f7f1;
+}
+
+.stand_up_text{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  /* text-align: right; */
+  color:#ffffff
+  
+}
+
+.we_walk_text{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 26px;
+  letter-spacing: 0px;
+  /* text-align: right; */
+  color:#ffffff
+}
+
+.unbound_text{
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  /* text-align: right; */
+  color:#ffffff
+}
+
+.img_col{
+position: relative;
+}
+
+.img_text{
+  position:absolute;
+  bottom: 0;
+  /* left: 16px; */
+  padding:7px;
+  width:100%;
+}
+.img_text_right{
+float: right;
+    width: 50%;
+    text-align: right;
+    padding-right: 41px;
+}
+
+.transforming_lives_heading{
+  padding-top: 60px;
+}
+
+.text-left_img{
+  padding: 59px 20px;
+}
+
+.p-left_img{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.p-left_img_bold{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: left;
+}
+/*our vision end*/
