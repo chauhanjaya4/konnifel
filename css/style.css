@@ -1595,7 +1595,7 @@ margin-right: -8px !important;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   /* background-position: center; */
-  height:481px;
+  /* height:481px; */
 }
 
 .getting_an_heading{
@@ -1915,6 +1915,11 @@ background-color: #f7f7f1;
 
 .img_col{
 position: relative;
+background-image: url("/images/our_vision/transforming_lives.jpg");
+background-size:cover ;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
 }
 
 .img_text{
@@ -1941,7 +1946,7 @@ float: right;
 
 .p-left_img{
 font-family: Poppins;
-font-size: 16px;
+font-size: 13px;
 font-weight: 400;
 line-height: 27px;
 letter-spacing: 0px;

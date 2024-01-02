@@ -206,6 +206,7 @@ width:70px !important;
     }
     .getting_an{
         background-size: 100% 100% !important;
+background-image: url("/images/our_vision/our_vision_slider_mob.jpg") !important;
     }
     .getting_an_heading {
         padding: 143px 31px 39px !important;
@@ -240,12 +241,12 @@ width:70px !important;
 }
 
 .hand_text {
-    padding: 2px 51px 1px !important;
+    padding: 2px 51px -1px !important;
     padding-left: 0px !important;
 }
 
 .hand_p{
-    font-size:14px !important;
+    font-size:12px !important;
 }
 
 
@@ -363,8 +364,230 @@ transform-origin: top left;
   #container:hover #record {
       left: 100px;  /* This is assuming you want it to slide from left-to-right */
   }
-   
+
+  .paving_path_h3 {
+  font-size: 48px !important;
+  line-height: 63px !important;
 }
+
+.paving_path_h2{
+    font-size: 58px !important;
+    line-height: 87px !important;
+    text-align: right !important;
+}
+
+.paving_text-left_heading {
+    padding-top:64px !important;
+    padding-bottom:10px !important;
+    font-size:17px;
+    /* padding:30px !important; */
+}
+.video-wrapper {
+    height: 191px !important;
+    width: 199px !important;
+    float: right !important;
+}
+
+.second_wrap{
+float: left !important;
+margin-top: -2px !important;
+margin-left: 20px !important;
+}
+
+.img-left_row2 {
+    padding-bottom: 40px !important;
+}
+
+.paving_text-right_heading {
+    padding-left:20px !important;
+    padding-bottom:50px ;
+}
+
+.our_mis_trans_text {
+    line-height:5px !important;
+    font-size: 46px !important;
+}
+
+.trans_lives_text {
+    line-height: 62px !important;
+    font-size: 46px !important;
+    text-align: left !important;
+}
+
+.text-left_img {
+    padding: 29px 9px !important;
+}
+
+.p-left_img {
+    font-size: 14px !important;
+}
+.img_text_right {
+    float: left !important;
+    width: 100% !important;
+    text-align: left !important;
+    
+}
+
+.img_col {
+    
+    background-size: 667px !important;
+    /* background-size: contain; */
+    height: 421px !important;
+    background-position: center !important;
+    /* background-position-y: left ; */
+    /* background-position-x: left; */
+    /* margin-left: 5px; */
+    /* background-position-y: center; */
+    /* background-position: center; */
+}
+
+.hand_heading {
+   font-size: 18px !important;
+}
+.hand_img img{
+    width:114px !important;
+}
+
+
+.p-left_img {
+    
+    font-size: 13px !important;
+}
+/* hand carousal*/
+/*  */
+ 
+
+  /* .carousel1 > .wrap::after {
+    transform: rotate(180deg);
+    left: auto;
+    right: 0;
+  } */
+  
+ 
+
+ 
+  /*.carousel1 > .wrap > ul > li > img {
+    display: block;
+    height: 100%;
+    margin: auto;
+    vertical-align: bottom;
+    position: relative;
+    z-index: 1;
+    transition: 1s ease;
+  } */
+
+
+
+  .carousel-indicators{
+display: none !important;
+  }
+
+  .carousel-item{
+  padding: 30px 30px 40px;
+  height:500px;
+  opacity:0.5;
+
+  /* /* content: "";
+  margin: 0 auto;
+  position: absolute; */
+  /*top: 2%;
+  margin-left: 4px;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  z-index: -1; */
+  /* border-top:2px solid #c2bcbe !important; */
+  }
+
+  .carousel-item.active{
+    opacity:1;
+    
+  }
+  .carousel-item{
+    border-top:2px solid #c2bcbe !important;
+    
+    
+  }
+  /* .carousel-inner:before{
+    border-top:2px solid #c2bcbe !important;
+    top: 2%;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 4px;
+    top: -1px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    border-top:2px solid #c2bcbe !important;
+
+  } */
+
+  .carousel-item.active:before{
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    margin-left: 4px;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    z-index: -1;
+    border-top:2px solid #a6102b !important;
+    /* transition: width 6s;  !important; */
+    animation: border_anim 1s linear forwards;
+}
+
+@keyframes border_anim {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 40%;
+	}
+}
+   .carousel-item:before{
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 4px;
+    top: 2%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    
+   }
+ .carousel-item {
+   
+    /* -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left; */
+    transition: 2s ease-in-out  !important;
+}
+
+  /* .slide_col{
+    width:70%;
+  }
+  .slide_col_small{
+width:30%;
+  } */
+
+ 
+
+
+  
+}
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 575px) {
 
