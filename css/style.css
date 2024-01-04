@@ -1974,7 +1974,7 @@ background-repeat: no-repeat;
 background-size: cover;
 
 
-height: 600px;
+height: 500px;
 width:100%;
 /* background-position: center; */
 }
@@ -1986,14 +1986,14 @@ width:100%;
 }
 .enrolment_text_bg{
 background-color: #ffffff;
-max-width:400px;
-height:400px;
+max-width:350px;
+height:340px;
 position: absolute;
   /* top: 50%;
   left: 50%; */
   /* transform:  rotateZ(1deg) scale(1, 1); */
   
-    top: 17%; 
+    top: 15%; 
    left: 30%;
    transform-origin: 0 0;
   
@@ -2002,50 +2002,43 @@ position: absolute;
  /* transform: translate(-50%, -50%); */
 }
 
-/* .enrolment_text_bg::after { 
-  content: ""; 
-  position: absolute; 
-  inset: -.625em; 
-  background: linear-gradient(to bottom right,  
-      rgb(246, 240, 240), rgb(36, 36, 36)); 
-  filter: blur(2.5em); 
-  border-radius: 50%; 
-  z-index: -1; 
-}  */
 
 .enrolment_div_middle{
-  max-width:400px;
-  height:390px;
+  max-width:340px;
+  height:330px;
     background-color:  #bfbfbf;
     
    position: absolute; 
-   top: 22%; 
+   top: 20%; 
     left: 29%;
     transform: skewY(2deg);
   
 }
 
 .enrolment_div{
-  max-width:400px;
-height:400px;
+  max-width:350px;
+height:330px;
   background-color:  #cccccc;
   transform: skewY(2deg);
  position: absolute; 
- top: 12%; 
+ top: 10%; 
  left: 31%;
   transform-origin: 0 0;
 }
 .enrolment_text_h4{
   font-family: Libre Baskerville;
-  font-size: 33px;
+ 
   font-weight: 400;
-  line-height: 49px;
+  
   letter-spacing: 0px;
   text-align: center;
+  font-size: 29px;
+    font-weight: 400;
+    line-height: 37px;
   }
   .enrolment_text_h5{
     font-family: Libre Baskerville;
-font-size: 22px;
+font-size: 18px;
 font-weight: 400;
 line-height: 22px;
 letter-spacing: 0px;
@@ -2053,9 +2046,9 @@ text-align: left;
   }
 
   .enrolment_text_p{font-family: poppins;
-font-size: 16px;
+font-size: 14px;
 font-weight: 300;
-line-height: 35px;
+line-height: 32px;
 letter-spacing: 0px;
 text-align: center;
 PADDING:10PX;
@@ -2065,7 +2058,7 @@ PADDING:10PX;
 position:absolute;
 background-color: transparent;
 color:#ffffff;
-bottom:-50px;
+bottom:46px;
 text-decoration: none;
 border:1px solid #ffffff;
 font-size:16px;

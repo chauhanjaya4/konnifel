@@ -577,9 +577,36 @@ width:30%;
   } */
 
  
+  .get_started_btn {
+    bottom: -103px !important;
+    margin-left:117px;
+  }
 
+  .enrolment_div_middle  {
+    left:4% !important;
+    max-width: 250px !important;
+  }
 
-  
+  .enrolment_div {
+    left:11% !important;
+    max-width: 255px !important;
+  }
+  .enrolment_text_bg{
+    left:9% !important;
+    max-width: 250px !important;
+  }
+
+  .enrolment_text_p {
+    line-height:25px !important;
+    font-size:14px !important;
+  }
+  .enrolment_text_h4{
+    line-height:35px !important;
+    font-size:20px !important;
+  }
+  .enrolment_text_h5 {
+    font-size:11px !important;
+  }
 }
 
 
