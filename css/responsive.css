@@ -579,11 +579,11 @@ width:30%;
  
   .get_started_btn {
     bottom: -103px !important;
-    margin-left:117px;
+    /* margin-left:117px; */
   }
 
   .enrolment_div_middle  {
-    left:4% !important;
+    left:5% !important;
     max-width: 75% !important;
     height: 370px !important;;
   }

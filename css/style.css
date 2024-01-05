@@ -2068,3 +2068,8 @@ width:160px;
 float: right;
 
   }
+
+  .flex-end{
+    display: flex;
+    justify-content: flex-end;
+  }
