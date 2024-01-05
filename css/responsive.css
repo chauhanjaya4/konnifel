@@ -585,6 +585,7 @@ width:30%;
   .enrolment_div_middle  {
     left:4% !important;
     max-width: 250px !important;
+    height: 370px !important;;
   }
 
   .enrolment_div {
@@ -594,6 +595,7 @@ width:30%;
   .enrolment_text_bg{
     left:9% !important;
     max-width: 250px !important;
+    height: 370px !important;;
   }
 
   .enrolment_text_p {
@@ -606,6 +608,10 @@ width:30%;
   }
   .enrolment_text_h5 {
     font-size:11px !important;
+  }
+
+  .enrolment{
+    height: 600px !important;
   }
 }
 
